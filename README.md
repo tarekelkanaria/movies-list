@@ -4,6 +4,8 @@ A Simple web app uses a _valid_ form to send the details of the movies to the da
 
 ## Demo-preview
 
+[Link to live demo](https://movies-list-elkanaria.netlify.app/)
+
 ## Author
 
 Tarek Elkanaria
