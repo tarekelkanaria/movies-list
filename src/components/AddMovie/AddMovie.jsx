@@ -3,7 +3,6 @@ import { useMoviesContext } from "../../store/MoviesProvider";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { AiFillCloseCircle } from "react-icons/ai";
-import PopupModal from "../Shared/PopupModal";
 import Loading from "../Shared/Loading";
 
 const AddMovie = ({ close }) => {
@@ -51,7 +50,6 @@ const AddMovie = ({ close }) => {
 
   return (
     <section className="container shadow-sm bg-body-tertiary p-5 rounded mb-5">
-      {addMovieCtx.isError && <PopupModal />}
       {addMovieCtx.isLoading && <Loading />}
       <div className=" w-25 ms-auto">
         <AiFillCloseCircle
