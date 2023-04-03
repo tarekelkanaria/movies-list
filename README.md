@@ -17,6 +17,7 @@ Tarek Elkanaria
 - JavaScript
 - Bootstrap
 - ReactJS
+- React hooks
 - React + vite for creation
 - React Bootstrap
 - axios
